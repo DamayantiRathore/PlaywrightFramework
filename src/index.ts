@@ -1,6 +1,6 @@
 import {test as baseTest} from '@playwright/test';
-import Login from './shared/login';
-import Logout from './shared/logout';
+import Login from './login';
+import Logout from './logout';
 export const test = baseTest.extend<{
   loginPage: Login;
   logoutPage: Logout;
